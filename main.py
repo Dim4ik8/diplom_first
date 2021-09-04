@@ -75,12 +75,10 @@ def upload_to_yd(token, file_path):
 if __name__ == '__main__':
     owner_id = input('Введите id пользователя VK: ')
     ya_token = input('Введите токен Яндекса: ')
-    # owner_id = 552934290
     get_profile_photos(
         owner_id=owner_id,
         token='958eb5d439726565e9333aa30e50e0f937ee432e927f0dbd541c541887d919a7c56f95c04217915c32008'
     )
     file_list = os.listdir('photos')
-    # ya_token = ''
     for file in file_list:
         upload_to_yd(ya_token, 'photos/' + file)
