@@ -81,6 +81,6 @@ if __name__ == '__main__':
         token='958eb5d439726565e9333aa30e50e0f937ee432e927f0dbd541c541887d919a7c56f95c04217915c32008'
     )
     file_list = os.listdir('photos')
-    # ya_token = 'AQAAAAAmiPK4AADLW46i9QFWAkf8mDZT5OXuowQ'
+    # ya_token = ''
     for file in file_list:
         upload_to_yd(ya_token, 'photos/' + file)
