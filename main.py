@@ -78,7 +78,7 @@ if __name__ == '__main__':
     # owner_id = 552934290
     get_profile_photos(
         owner_id=owner_id,
-        token='958eb5d439726565e9333aa30e50e0f937ee432e927f0dbd541c541887d919a7c56f95c04217915c32008'
+        token=
     )
     file_list = os.listdir('photos')
     # ya_token = 'AQAAAAAmiPK4AADLW46i9QFWAkf8mDZT5OXuowQ'
